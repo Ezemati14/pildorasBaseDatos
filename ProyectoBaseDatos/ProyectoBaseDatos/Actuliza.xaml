@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProyectoBaseDatos.Actuliza"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoBaseDatos"
+        mc:Ignorable="d"
+        Title="Actuliza" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="CuadroActualiza" HorizontalAlignment="Left" Margin="176,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="174" Height="49"/>
+        <Label Content="Nombre del cliente: " HorizontalAlignment="Left" Margin="41,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.613,-0.263"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="77,113,0,0" VerticalAlignment="Top" Height="42" Width="136" Click="Button_Click"/>
+
+    </Grid>
+</Window>
